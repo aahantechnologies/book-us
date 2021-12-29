@@ -1,0 +1,59 @@
+.mydesign form{
+    border: 2px solid #74c043;
+    padding: 2%;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.form-control, .form-control:focus {
+    background-color: transparent;
+    border-left: 4px solid #7AC043;
+}
+.btn-custom {
+    background-color: #7AC043;
+    color: #FFFFFF !important;
+    text-transform: uppercase;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn:focus, .btn:hover {
+    text-decoration: none;
+}
+.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {
+    background-image: none;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(102, 174, 233) !important;
+}
+.btn:focus, .btn:hover {
+    text-decoration: none;
+}
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.clrbtn a:focus, .clrbtn a{
+    color: white !important;
+}
+.text-uppercase.text-center {
+    padding: 15px 0 0 0;
+}
+
+input[type="date"].form-control{
+    line-height: 20px !important;
+}
